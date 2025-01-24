@@ -1,0 +1,7 @@
+C:\Users\tristao\source\repos\CSharpClipboardThief\CSharpClipboardThief\bin\Release\CSharpClipboardThief.exe.config
+C:\Users\tristao\source\repos\CSharpClipboardThief\CSharpClipboardThief\bin\Release\CSharpClipboardThief.exe
+C:\Users\tristao\source\repos\CSharpClipboardThief\CSharpClipboardThief\bin\Release\CSharpClipboardThief.pdb
+C:\Users\tristao\source\repos\CSharpClipboardThief\CSharpClipboardThief\obj\Release\CSharpClipboardThief.csproj.AssemblyReference.cache
+C:\Users\tristao\source\repos\CSharpClipboardThief\CSharpClipboardThief\obj\Release\CSharpClipboardThief.csproj.CoreCompileInputs.cache
+C:\Users\tristao\source\repos\CSharpClipboardThief\CSharpClipboardThief\obj\Release\CSharpClipboardThief.exe
+C:\Users\tristao\source\repos\CSharpClipboardThief\CSharpClipboardThief\obj\Release\CSharpClipboardThief.pdb
